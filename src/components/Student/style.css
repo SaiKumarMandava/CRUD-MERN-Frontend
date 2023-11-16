@@ -1,0 +1,108 @@
+/* .ant-table-tbody >.ant-table-row:nth-child(even) {
+   background-color: rgb(214, 26, 26);
+ } */
+ 
+ .ant-table-row {
+    font-size: 14px;
+    
+    background-color: rgb(255, 255, 255);    /*color for rows*/
+  }
+  /* Not working */
+  /* .ant-table-tbody > tr.ant-table-row:hover > td,
+  .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+    background-color: rgb(246, 7, 7);  
+  } */
+  /*...............*/
+  th.ant-table-cell.tableHeader {
+    background-color: #000000 !important;
+   
+    font-size: 15px;
+    
+    
+  }
+  :where(.css-dev-only-do-not-override-1w4v3hc).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-1w4v3hc).ant-table-wrapper .ant-table-thead >tr>td {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: #050505;
+    
+   
+ }
+
+ :where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper .ant-table-thead >tr>td {
+    position: relative;
+    color: #fafafa;
+    font-weight: 600;
+    text-align: start;
+    background: #fafafa;
+    border-bottom: 1px solid #f0f0f0;
+   
+ }
+  .ant-table-header{
+    background-color: #001529 !important;
+    color:white;
+    
+    
+  }
+  /* modal form */
+  label.ant-form-item-required{
+    font-weight:bold;
+    font-size:20px;
+    
+  }
+  :where(.css-dev-only-do-not-override-1w4v3hc).ant-modal .ant-modal-content.ant-modal-content{
+    background-color: rgb(232, 242, 242);
+    
+    box-shadow: 2px 2px 2px rgb(229, 217, 217);
+    border: solid 4px ghostwhite;
+  }
+  
+  :where(.css-dev-only-do-not-override-1w4v3hc).ant-form-vertical .ant-form-item-label >label, :where(.css-dev-only-do-not-override-1w4v3hc).ant-col-24.ant-form-item-label >label, :where(.css-dev-only-do-not-override-1w4v3hc).ant-col-xl-24.ant-form-item-label >label {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+ }
+ /*create button */
+ :where(.css-dev-only-do-not-override-1w4v3hc).ant-btn-primary {
+    color: #fff;
+    font-weight:bold;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+ }
+ /*cANCLE BUTTON*/
+ :where(.css-dev-only-do-not-override-1w4v3hc).ant-btn {
+    font-size: 14px;
+    height: 32px;
+    padding: 4px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+ }
+ 
+ :where(.css-dev-only-do-not-override-1w4v3hc).ant-btn-default {
+    /* background-color: #ffffff; */
+    border-color: #d9d9d9;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+ }
+ 
+ /*edit icon*/
+ .anticon-edit{
+    font-size: 25px;
+    color: blue;
+ }
+ .anticon-edit:hover{
+    
+    color: black;
+ }
+ /*delete icon */
+ .anticon-delete{
+    color:red;
+    font-size: 25px;
+ }
+ .anticon:hover{
+    color:black;
+ }
+
+
+ thead {
+    display: table-header-group;
+    vertical-align: middle;
+    background-color: #000000;
+}
